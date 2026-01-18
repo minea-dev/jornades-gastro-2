@@ -45,6 +45,6 @@ El projecte segueix una estructura modular:
 * `tailwind.config.js`: Personalització del tema (colors corporatius, vores neobrutalistes i tipografies).
 
 ## ✍️ Autor
-**Nom de l'alumne:** Minea Licer Silvestre
-**Assignatura:** Eines HTML i CSS II
-**Data:** Gener 2026
+**Nom de l'alumne:** Minea Licer Silvestre <br>
+**Assignatura:** Eines HTML i CSS II <br>
+**Data:** Gener 2026 <br>

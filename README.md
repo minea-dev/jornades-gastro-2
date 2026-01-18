@@ -10,10 +10,10 @@ Aquest projecte correspon a la tercera Prova d'Avaluació Contínua (PAC) de l'a
 
 ## 🛠️ Tecnologies Utilitzades
 
-* [cite_start]**Framework CSS:** [Tailwind CSS v3+](https://tailwindcss.com/) [cite: 1]
-* [cite_start]**Bundler:** [Parcel](https://parceljs.org/) [cite: 1]
-* [cite_start]**Post-processament:** PostCSS i PostHTML [cite: 1]
-* [cite_start]**Metodologia:** Utility-first amb extracció de classes mitjançant la directiva `@apply` [cite: 1]
+* **Framework CSS:** [Tailwind CSS v3+](https://tailwindcss.com/) 
+* **Bundler:** [Parcel](https://parceljs.org/) 
+* **Post-processament:** PostCSS i PostHTML 
+* **Metodologia:** Utility-first amb extracció de classes mitjançant la directiva `@apply` 
 * **IA Generativa:** ChatGPT per a la creació de la pàgina de contacte i optimització de codi.
 
 ## 📋 Requisits i Instal·lació

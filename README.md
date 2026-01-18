@@ -1,4 +1,4 @@
-# PAC 3: Eines de desenvolupament Front-End - Frameworks CSS
+# PAC 3: Eines HTML i CSS II
 
 Aquest projecte correspon a la tercera Prova d'Avaluació Contínua (PAC) de l'assignatura d'Eines HTML i CSS II (UOC). L'objectiu principal ha estat la migració i redisseny d'una web gastronòmica utilitzant el framework **Tailwind CSS**, aplicant una metodologia **utility-first** i integrant eines d'IA generativa.
 

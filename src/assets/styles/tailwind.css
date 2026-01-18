@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-brutalist {
+    @apply bg-secondary border-4 border-text shadow-[10px_10px_0_#212529] p-8;
+  }
+
+  .title-highlight {
+    @apply uppercase font-bold text-text leading-none [text-shadow:3px_3px_0_#e65100];
+  }
+
+  .btn-primary {
+    @apply bg-primary text-secondary px-4 py-2 font-bold border-2 border-text transition-transform hover:-translate-y-1;
+  }
+}

@@ -1,27 +1,44 @@
 <!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inici | Jornades Gastronòmiques</title>
+  <link rel="stylesheet" type="text/css" href="./assets/styles/tailwind.css">
+</head>
+<body class="flex flex-col min-h-screen font-sans">
+<include src="./views/header.html"></include>
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+<main class="flex justify-center items-center p-8 bg-gray-100 min-h-[85vh] lg:px-10">
+  <section class="w-full max-w-[500px] lg:max-w-[950px] card-brutalist flex flex-col lg:grid lg:grid-cols-[1.2fr_1fr] lg:gap-0 !p-0 overflow-hidden">
+
+    <div class="lg:border-r-4 lg:border-r-text border-b-4 border-b-text min-h-[300px] overflow-hidden relative">
+      <img src="/src/assets/images/poster.png" alt="Arròs al forn" class="w-full h-full object-cover transition-transform duration-400 hover:scale-105">
     </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+
+    <div class="p-8 md:p-12 flex flex-col justify-start">
+      <header class="text-left">
+        <div class="mb-5">
+          <span class="bg-primary text-secondary uppercase px-3 py-1 text-base font-bold border-2 border-text">VI EDICIÓ</span>
+        </div>
+        <h1 class="text-[3.5rem] sm:text-7xl lg:text-5xl title-highlight">Sabors<br>de Quart</h1>
+        <h2 class="inline-block bg-text text-secondary px-3 py-1 mt-3 text-xl font-normal">Jornades Gastronòmiques 2025</h2>
+      </header>
+
+      <div class="mt-8">
+        <div class="border-b-2 border-b-text w-full"></div>
+
+        <include src="./views/info-list.html"></include>
+
+        <a href="#" class="btn-primary w-full p-3 mt-8 block text-center tracking-widest uppercase">
+          RESERVAR TIQUETS
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<include src="./views/footer.html"></include>
+<script type="module" src="./assets/scripts/main.js"></script>
+</body>
 </html>
